@@ -1,0 +1,11 @@
+export const add = (a: number, b: number) => {
+  return a + b;
+};
+export const substract = (a: number, b: number) => {
+  return a - b;
+};
+export const multiply = (a: number, b: number): number => a * b;
+
+export const isEven = (num: number): boolean => num % 2 === 0;
+
+export const isOdd = (num: number): boolean => num % 2 !== 0;
